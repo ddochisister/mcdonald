@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+#wrap{}
+
+
+
+#header{
+    width: 100%;
+    background: #fff;
+}
+
+.head_inner{
+    /* background: #f0dada; */
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.head_inner .logo{
+    display: block;
+    float: left;
+    padding: 20px 0;
+}
+
+.nav{
+}
+
+.main_menu{
+}
+
+.main_menu li{
+}
+
+.main_menu li a{
+    display: inline-block;
+    width: 158px;
+    height: 140px;
+    /* background: #8f1f1f; */
+    float: left;
+    text-align: center;
+    line-height: 140px;
+    margin-left: 30px;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+
+.color_box li a{
+    float: left;
+    width: 81px;
+    height: 36px;
+    display: inline-block;
+    /* background: #512a2a; */
+    text-align: center;
+    line-height: 36px;
+    border-radius: 30px;
+    margin: 52px 1px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px #000;
+}
+.color_box li:nth-child(1) a{background: orangered;}
+.color_box li:nth-child(2) a{background: orange;}
+.color_box li:nth-child(3) a{background: olivedrab;}
+.color_box li:nth-child(4) a{background: none;}
+
+#contents{
+    background: rgba(241, 241, 241, 0.589);
+    width: 100%;
+}
+
+.main_img{
+    text-align: center;
+    position: relative;
+}
+
+.left_btn{
+    width: 90px;
+    height: 90px;
+    background: url(../img/bg_swiper_new.png) ;
+    background-position: 0px 0px;
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.right_btn{
+    width: 90px;
+    height: 90px;
+    background: url(../img/bg_swiper_new.png) ;
+    background-position: 0 -90px;
+    position: absolute;
+    right: 0px;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+/* .play_btn{
+    width: 36px;
+    height: 36px;
+    background: url(../img/bg_swiper_new.png);
+    background-position: -92px 0px;
+    position: absolute;
+    left: 800px;
+    bottom: 10px;
+} */
+
+.cont_inner{
+    width: 1200px;
+    height: 1270px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#fix{
+    position: fixed;
+    right: 350px;
+    bottom: 400px;
+}
+
+.fix_menu1{
+    position: absolute;
+    right: -105px;
+    top: 50px;
+}
+.fix_menu2{
+    position: absolute;
+    right: -120px;
+    top: 180px;
+}
+.fix_menu3{
+    position: absolute;
+    right: -90px;
+    top: 320px;
+}
+
+.cont_inner h1{
+    font-size: 50px;
+    padding: 20px;
+    /* background: #dddada; */
+}
+
+.live_box{
+    display: inline-block;
+    margin: 0 15px 30px 15px;
+}
+
+.live_box img{border-radius: 10px 10px 0 0;}
+
+.live_box .txt{
+    border: 1px solid #cacaca;
+    width: 366px;
+    height: 138px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 1px 1px rgb(131, 131, 131);
+}
+.live_box .txt p{
+    /* background: #d4b6b6; */
+    text-align: center;
+    padding: 35px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.more{
+    position: absolute;
+    left: 555px;
+    bottom: 80px;
+}
+
+#footer{
+    background: #2c2c2c;
+    height: 260px;
+    width: 100%;
+    
+}
+
+.foot_inner{
+    width: 1200px;
+    margin: 0 auto;
+    color: white;
+    position: relative;
+}
+
+.f_text{
+    padding: 20px 0;
+}
+
+.f_text a{
+    display: block;
+    font-size: 18px;
+    padding: 5px;
+    font-weight: 500;
+}
+
+.f_text a:nth-child(1){color: yellow;}
+
+.f_txt{
+    position: absolute;
+    left: 150px;
+    top: 25px;
+    font-size: 18px;
+    color: #bdbdbd;
+}
+
+.sns{
+    
+}
+
+.facebook{
+    width: 40px;
+    height: 40px;
+    background: url(../img/ico_sns.png);
+    background-position: 0 0;
+    position: absolute;
+    right: 200px;
+    top: 25px;
+}
+
+.insta{
+    width: 40px;
+    height: 40px;
+    background: url(../img/ico_sns.png);
+    background-position: 0 -40px;
+    position: absolute;
+    right: 150px;
+    top: 25px;
+}
+
+.youtube{
+    width: 40px;
+    height: 40px;
+    background: url(../img/ico_sns.png);
+    background-position: 0 -80px;
+    position: absolute;
+    right: 100px;
+    top: 25px;
+}
+
+.link{
+    width: 40px;
+    height: 40px;
+    background: url(../img/ico_sns.png);
+    background-position: 0 -120px;
+    position: absolute;
+    right: 50px;
+    top: 25px;
+}
+
+
